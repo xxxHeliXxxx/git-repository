@@ -1,0 +1,61 @@
+
+body {
+    background: #717171;
+}
+
+.main_form {
+height: 10em;
+position: relative;
+width: 340px;
+height: 208px;
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 9px;
+margin: auto;
+text-align: start;
+margin-bottom: 10px;
+}
+input[name="Username"] {
+    width: 305px;
+    height: 25px;
+    background: #F1F1F1;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 17px;
+
+}
+
+input[name="Comment"] {
+    width: 305px;
+    height: 106px;
+    background: #F1F1F1;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 17px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+input[name="add"] {
+width: 308px;
+height: 25px;
+background: #65A8B1;
+border: none;
+border-radius: 5px;
+font-size: 12px;
+color: #FFFFFF;
+margin-left: 17px;
+}
+.form_result {
+        height: 10em;
+        position: relative;
+        width: 340px;
+        height: 208px;
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 9px;
+        margin: auto;
+        text-align: start;
+        display: none;
+}
