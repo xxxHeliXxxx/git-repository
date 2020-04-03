@@ -3,7 +3,8 @@
 }
 
 html {
-  font-size: 18px;
+  color: #222222;
+  font-size: 15px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
@@ -40,7 +41,7 @@ button {
 .content-wrapper {
   width: 100%;
   padding: 0 1rem;
-  max-width: calc(1200px + 2rem);
+  max-width: calc(1400px + 2rem);
   margin: 0 auto;
 }
 
@@ -50,6 +51,15 @@ button {
 
 .text-regular {
   font-weight: 500;
+}
+
+.page-main {
+  display: flex;
+  justify-content: center;
+}
+
+.no-padding {
+  padding: 0 !important;
 }
 
 /*# sourceMappingURL=base.css.map */

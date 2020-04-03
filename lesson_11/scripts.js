@@ -1,4 +1,3 @@
-
 const ADMIN_CREDENTIALS = {
   name: 'admin@admin',
   pass: 'admin'

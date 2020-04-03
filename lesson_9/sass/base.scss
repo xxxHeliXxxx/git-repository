@@ -1,9 +1,12 @@
+@import './variables';
+@import './mixins';
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-size: 18px;
+  color: $default-text-color;
+  font-size: 15px;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
@@ -38,10 +41,7 @@ button {
 }
 
 .content-wrapper {
-  width: 100%;
-  padding: 0 1rem;
-  max-width: calc(1200px + 2rem);
-  margin: 0 auto;
+  @include conteiner;
 }
 
 .text-bold {
@@ -49,4 +49,13 @@ button {
 }
 .text-regular {
   font-weight: 500;
+}
+
+.page-main {
+  display: flex;
+  justify-content: center;
+}
+
+.no-padding {
+  padding: 0 !important;
 }
